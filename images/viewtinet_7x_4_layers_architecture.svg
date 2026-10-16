@@ -58,15 +58,15 @@
       <rect x="0" y="0" width="484" height="88" rx="6" fill="url(#card-inner)" stroke="#6d28d9" stroke-width="1"/>
       <text x="14" y="22" font-size="14" font-weight="700" fill="#f5f3ff">Viewtimanager</text>
       <text x="14" y="42" font-size="11" fill="#cbd5e1">• Centralized Asset Inventory &amp; Network Auto-Discovery</text>
-      <text x="14" y="58" font-size="11" fill="#cbd5e1">• Automated Tasks: Poller (SNMP/Metrics) &amp; Snipper (CLI Scripts)</text>
-      <text x="14" y="74" font-size="11" fill="#cbd5e1">• Configuration Manager (Backups/Diffs) &amp; Centralized Upgrades</text>
+      <text x="14" y="58" font-size="11" fill="#cbd5e1">• Network Configuration Manager (NCM) &amp; Scheduled Tasks Flows</text>
+      <text x="14" y="74" font-size="11" fill="#cbd5e1">• Configuration Backups/Diffs, Appliance Upgrades &amp; Plugin Lifecycle</text>
 
       <!-- Viewtiauth -->
       <rect x="500" y="0" width="484" height="88" rx="6" fill="url(#card-inner)" stroke="#6d28d9" stroke-width="1"/>
       <text x="514" y="22" font-size="14" font-weight="700" fill="#f5f3ff">Viewtiauth</text>
       <text x="514" y="42" font-size="11" fill="#cbd5e1">• Centralized AAA &amp; Granular Role-Based Access Control (RBAC)</text>
-      <text x="514" y="58" font-size="11" fill="#cbd5e1">• Microsoft Active Directory &amp; LDAP Sync with Group-to-Role Mapping</text>
-      <text x="514" y="74" font-size="11" fill="#cbd5e1">• Multi-Factor Auth (MFA), Inactivity Governance &amp; OAuth2 / API Keys</text>
+      <text x="514" y="58" font-size="11" fill="#cbd5e1">• Microsoft Active Directory, LDAP, SAML 2.0 &amp; Entra ID SSO</text>
+      <text x="514" y="74" font-size="11" fill="#cbd5e1">• Multi-Factor Auth (MFA/TOTP), Session Inactivity &amp; Managed API Keys</text>
     </g>
   </g>
 

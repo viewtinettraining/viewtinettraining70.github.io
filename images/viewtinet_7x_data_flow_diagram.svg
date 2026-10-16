@@ -95,14 +95,14 @@
       <text x="14" y="70" font-size="11" fill="#cbd5e1">• Central Asset Inventory</text>
       <text x="14" y="86" font-size="10" fill="#94a3b8">  Automated subnet/device discovery</text>
 
-      <text x="14" y="112" font-size="11" fill="#cbd5e1">• Poller Task Engine</text>
-      <text x="14" y="128" font-size="10" fill="#94a3b8">  Scheduled SNMP &amp; metric polling</text>
+      <text x="14" y="112" font-size="11" fill="#cbd5e1">• Network Config Manager (NCM)</text>
+      <text x="14" y="128" font-size="10" fill="#94a3b8">  Automated backup &amp; diff of configs</text>
 
-      <text x="14" y="154" font-size="11" fill="#cbd5e1">• Snipper Task Engine</text>
-      <text x="14" y="170" font-size="10" fill="#94a3b8">  Automated remote CLI script executions</text>
+      <text x="14" y="154" font-size="11" fill="#cbd5e1">• Scheduled Tasks &amp; Subtasks</text>
+      <text x="14" y="170" font-size="10" fill="#94a3b8">  Cron-based remote CLI command flows</text>
 
-      <text x="14" y="196" font-size="11" fill="#cbd5e1">• Configuration Manager</text>
-      <text x="14" y="212" font-size="10" fill="#94a3b8">  Scheduled backup &amp; diff of configs</text>
+      <text x="14" y="196" font-size="11" fill="#cbd5e1">• Plugin Lifecycle (VSDB)</text>
+      <text x="14" y="212" font-size="10" fill="#94a3b8">  Data Broker connectors &amp; pipelines</text>
 
       <text x="14" y="238" font-size="11" fill="#cbd5e1">• Appliance Upgrades</text>
       <text x="14" y="254" font-size="10" fill="#94a3b8">  Signature packs &amp; node management</text>
