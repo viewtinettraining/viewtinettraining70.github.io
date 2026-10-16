@@ -182,12 +182,12 @@
       <text x="14" y="70" font-size="11" fill="#cbd5e1">• QoE &amp; Latency KPIs • VoIP Analysis (MOS, Jitter, Packet Loss, Codecs)</text>
       <text x="14" y="84" font-size="11" fill="#cbd5e1">• Viewtify QoS Policies • Active Probe Tests (ICMP, DHCP, DNS, HTTP)</text>
 
-      <!-- Telemetry Ingestion & Bypasser (346px width) -->
+      <!-- Telemetry Ingestion & Streams (346px width) -->
       <rect x="638" y="0" width="346" height="88" rx="6" fill="url(#card-inner)" stroke="#0369a1" stroke-width="1"/>
-      <text x="652" y="22" font-size="14" font-weight="700" fill="#f0f9ff">Telemetry Ingestion &amp; Links</text>
-      <text x="652" y="42" font-size="11" fill="#cbd5e1">• Flow Sniffing: NetFlow, IPFIX, sFlow, jFlow</text>
-      <text x="652" y="58" font-size="11" fill="#cbd5e1">• Management: SNMP Polling/Traps, Syslog, APIs</text>
-      <text x="652" y="74" font-size="11" fill="#94a3b8">• Inline Bypasser: Hardware relay fail-over</text>
+      <text x="652" y="22" font-size="14" font-weight="700" fill="#f0f9ff">Telemetry Ingestion &amp; Streams</text>
+      <text x="652" y="42" font-size="11" fill="#cbd5e1">• Flow Feeds: NetFlow, IPFIX, sFlow, jFlow</text>
+      <text x="652" y="58" font-size="11" fill="#cbd5e1">• Device Management: SNMP Polling/Traps &amp; Syslog</text>
+      <text x="652" y="74" font-size="11" fill="#cbd5e1">• Host &amp; Cloud Telemetry: WMI &amp; Web Service APIs</text>
     </g>
   </g>
 

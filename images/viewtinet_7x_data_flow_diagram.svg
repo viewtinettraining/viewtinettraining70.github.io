@@ -161,14 +161,14 @@
         <text x="14" y="83" font-size="10.5" fill="#cbd5e1">• Viewtify QoS Policies • Active Synthetic Probes (ICMP, DHCP, DNS, HTTP)</text>
       </g>
 
-      <!-- Telemetry Ingestion & Bypasser (256px width) -->
+      <!-- Telemetry Ingestion & Streams (256px width) -->
       <g transform="translate(472, 0)">
         <rect x="0" y="0" width="256" height="98" rx="6" fill="url(#card-grad)" stroke="#0369a1" stroke-width="1"/>
-        <text x="14" y="20" font-size="13" font-weight="700" fill="#f0f9ff">Telemetry Ingestion &amp; Fail-Over</text>
-        <text x="14" y="38" font-size="10.5" fill="#cbd5e1">• Flow Sniffing: NetFlow, IPFIX, sFlow</text>
+        <text x="14" y="20" font-size="13" font-weight="700" fill="#f0f9ff">Telemetry Ingestion &amp; Streams</text>
+        <text x="14" y="38" font-size="10.5" fill="#cbd5e1">• Flow Feeds: NetFlow, IPFIX, sFlow</text>
         <text x="14" y="53" font-size="10.5" fill="#cbd5e1">• SNMPv1/v2c/v3 Polling &amp; Traps</text>
-        <text x="14" y="68" font-size="10.5" fill="#cbd5e1">• High-Throughput Syslog Server</text>
-        <text x="14" y="83" font-size="10" fill="#94a3b8">• Bypasser: Hardware relay fail-open</text>
+        <text x="14" y="68" font-size="10.5" fill="#cbd5e1">• High-Capacity Syslog Receiver</text>
+        <text x="14" y="83" font-size="10.5" fill="#cbd5e1">• WMI &amp; Cloud Web Service APIs</text>
       </g>
     </g>
   </g>
@@ -295,6 +295,6 @@
   <!-- ==================== FOOTER ==================== -->
   <g transform="translate(40, 856)">
     <rect x="0" y="0" width="1060" height="40" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-    <text x="530" y="25" font-size="11" font-weight="500" fill="#64748b" text-anchor="middle">Viewtinet 7.X Data Flow: Infrastructure → Collection (Viewtimon/Bypasser) → Viewtilog (Dhyana ETL &amp; Viewticore DB) → Viewtisight (Analytics &amp; Control Center Alarms) | Governed by Viewtimanager &amp; Viewtiauth</text>
+    <text x="530" y="25" font-size="11" font-weight="500" fill="#64748b" text-anchor="middle">Viewtinet 7.X Data Flow: Infrastructure → Collection (Viewtimon &amp; Telemetry Ingestion) → Viewtilog (Dhyana ETL &amp; Viewticore DB) → Viewtisight (Analytics &amp; Control Center Alarms) | Governed by Viewtimanager &amp; Viewtiauth</text>
   </g>
 </svg>
