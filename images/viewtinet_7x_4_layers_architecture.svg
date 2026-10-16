@@ -1,46 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 860" width="100%" height="100%" style="background-color: #090d16; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 940" width="100%" height="100%" style="background-color: #090d16; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
   <defs>
     <!-- Background Grid -->
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#131c2e" stroke-width="0.8"/>
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#131c2e" stroke-width="0.7"/>
     </pattern>
 
-    <!-- Gradients -->
+    <!-- Gradients for Layers -->
     <linearGradient id="layer4-grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#2e1065" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#170d36" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#150a2e" stop-opacity="0.9"/>
     </linearGradient>
     <linearGradient id="layer3-grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#451a03" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#240e02" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#200d02" stop-opacity="0.9"/>
     </linearGradient>
     <linearGradient id="layer2-grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#064e3b" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#02271d" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#022119" stop-opacity="0.9"/>
     </linearGradient>
     <linearGradient id="layer1-grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0c4a6e" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#052438" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#041f33" stop-opacity="0.9"/>
     </linearGradient>
 
     <!-- Card Background Gradient -->
     <linearGradient id="card-inner" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.85"/>
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9"/>
     </linearGradient>
 
     <!-- Arrow Markers -->
-    <marker id="arrow-down" viewBox="0 0 10 10" refX="5" refY="9" markerWidth="6" markerHeight="6" orient="auto">
-      <path d="M 0 0 L 5 9 L 10 0 Z" fill="#94a3b8"/>
+    <marker id="arrow-down-purple" viewBox="0 0 10 10" refX="5" refY="8" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 1 1 L 5 8 L 9 1 Z" fill="#a78bfa"/>
     </marker>
-    <marker id="arrow-up" viewBox="0 0 10 10" refX="5" refY="1" markerWidth="6" markerHeight="6" orient="auto">
-      <path d="M 0 9 L 5 0 L 10 9 Z" fill="#38bdf8"/>
+    <marker id="arrow-up-amber" viewBox="0 0 10 10" refX="5" refY="2" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 1 9 L 5 2 L 9 9 Z" fill="#fbbf24"/>
+    </marker>
+    <marker id="arrow-up-emerald" viewBox="0 0 10 10" refX="5" refY="2" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 1 9 L 5 2 L 9 9 Z" fill="#34d399"/>
     </marker>
   </defs>
 
   <!-- Background -->
-  <rect width="1100" height="860" fill="#090d16"/>
-  <rect width="1100" height="860" fill="url(#grid)"/>
+  <rect width="1100" height="940" fill="#090d16"/>
+  <rect width="1100" height="940" fill="url(#grid)"/>
 
   <!-- ==================== HEADER ==================== -->
   <g transform="translate(40, 20)">
@@ -52,24 +55,24 @@
   </g>
 
   <!-- ==================== LAYER 4 ==================== -->
-  <g transform="translate(40, 80)">
-    <!-- Layer Container -->
+  <g transform="translate(40, 85)">
+    <!-- Container -->
     <rect x="0" y="0" width="1020" height="150" rx="10" fill="url(#layer4-grad)" stroke="#8b5cf6" stroke-width="1.5"/>
-    <!-- Layer Badge -->
+    <!-- Badge -->
     <rect x="18" y="14" width="370" height="26" rx="5" fill="#4c1d95" stroke="#a78bfa" stroke-width="1"/>
     <text x="28" y="31" font-size="12" font-weight="700" fill="#ede9fe" letter-spacing="0.5">LAYER 4: ADMINISTRATION, SECURITY &amp; GOVERNANCE</text>
     <text x="990" y="32" font-size="12" font-weight="600" fill="#c4b5fd" text-anchor="end">Control Plane</text>
 
     <!-- Sub-Cards -->
     <g transform="translate(18, 48)">
-      <!-- Viewtimanager Card -->
+      <!-- Viewtimanager -->
       <rect x="0" y="0" width="484" height="88" rx="6" fill="url(#card-inner)" stroke="#6d28d9" stroke-width="1"/>
       <text x="14" y="22" font-size="14" font-weight="700" fill="#f5f3ff">Viewtimanager</text>
       <text x="14" y="42" font-size="11" fill="#cbd5e1">• Centralized Asset Inventory &amp; Network Auto-Discovery</text>
       <text x="14" y="58" font-size="11" fill="#cbd5e1">• Automated Tasks: Poller (SNMP/Metrics) &amp; Snipper (CLI Scripts)</text>
       <text x="14" y="74" font-size="11" fill="#cbd5e1">• Configuration Manager (Backups/Diffs) &amp; Centralized Upgrades</text>
 
-      <!-- Viewtiauth Card -->
+      <!-- Viewtiauth -->
       <rect x="500" y="0" width="484" height="88" rx="6" fill="url(#card-inner)" stroke="#6d28d9" stroke-width="1"/>
       <text x="514" y="22" font-size="14" font-weight="700" fill="#f5f3ff">Viewtiauth</text>
       <text x="514" y="42" font-size="11" fill="#cbd5e1">• Centralized AAA &amp; Granular Role-Based Access Control (RBAC)</text>
@@ -78,32 +81,32 @@
     </g>
   </g>
 
-  <!-- Flow Connector 4 to 3 & 2 -->
-  <g transform="translate(550, 230)">
-    <line x1="0" y1="0" x2="0" y2="28" stroke="#94a3b8" stroke-width="1.8" stroke-dasharray="4,3" marker-end="url(#arrow-down)"/>
-    <rect x="-95" y="6" width="190" height="16" rx="3" fill="#0f172a" stroke="#334155" stroke-width="0.8"/>
-    <text x="0" y="18" font-size="9" font-weight="600" fill="#94a3b8" text-anchor="middle">Management, Policy &amp; Security</text>
+  <!-- Flow Connector: Layer 4 to Layer 3 (Clear 55px vertical spacing) -->
+  <g transform="translate(550, 235)">
+    <line x1="0" y1="5" x2="0" y2="48" stroke="#a78bfa" stroke-width="2" stroke-dasharray="5,4" marker-end="url(#arrow-down-purple)"/>
+    <rect x="-105" y="15" width="210" height="22" rx="11" fill="#0f172a" stroke="#8b5cf6" stroke-width="1"/>
+    <text x="0" y="30" font-size="10" font-weight="600" fill="#ede9fe" text-anchor="middle">Policy, Governance &amp; Security ↓</text>
   </g>
 
   <!-- ==================== LAYER 3 ==================== -->
-  <g transform="translate(40, 260)">
-    <!-- Layer Container -->
+  <g transform="translate(40, 295)">
+    <!-- Container -->
     <rect x="0" y="0" width="1020" height="150" rx="10" fill="url(#layer3-grad)" stroke="#f59e0b" stroke-width="1.5"/>
-    <!-- Layer Badge -->
+    <!-- Badge -->
     <rect x="18" y="14" width="370" height="26" rx="5" fill="#78350f" stroke="#fbbf24" stroke-width="1"/>
     <text x="28" y="31" font-size="12" font-weight="700" fill="#fef3c7" letter-spacing="0.5">LAYER 3: VISUALIZATION, ANALYTICS &amp; CONTROL CENTER</text>
     <text x="990" y="32" font-size="12" font-weight="600" fill="#fcd34d" text-anchor="end">Operations &amp; BI Plane</text>
 
     <!-- Sub-Cards -->
     <g transform="translate(18, 48)">
-      <!-- Viewtisight Operations Card -->
+      <!-- Viewtisight -->
       <rect x="0" y="0" width="484" height="88" rx="6" fill="url(#card-inner)" stroke="#b45309" stroke-width="1"/>
       <text x="14" y="22" font-size="14" font-weight="700" fill="#fffbeb">Viewtisight (Dashboards &amp; Forensics)</text>
       <text x="14" y="42" font-size="11" fill="#cbd5e1">• Multi-Layer Dashboards (Card Stacking &amp; Layer Visibility Toggles)</text>
       <text x="14" y="58" font-size="11" fill="#cbd5e1">• Preconfigured Domain Cockpits (Executive, Network, VoIP, Security)</text>
       <text x="14" y="74" font-size="11" fill="#cbd5e1">• Free Exploration Mode (Mole / XDR) &amp; Dynamic Network Topologies</text>
 
-      <!-- Control Center Card -->
+      <!-- Control Center & ViewtiAI -->
       <rect x="500" y="0" width="484" height="88" rx="6" fill="url(#card-inner)" stroke="#b45309" stroke-width="1"/>
       <text x="514" y="22" font-size="14" font-weight="700" fill="#fffbeb">Control Center &amp; ViewtiAI</text>
       <text x="514" y="42" font-size="11" fill="#cbd5e1">• Active Alarms Monitoring Panel &amp; Detailed Threshold Rule Config</text>
@@ -112,32 +115,32 @@
     </g>
   </g>
 
-  <!-- Flow Connector 2 to 3 -->
-  <g transform="translate(550, 410)">
-    <line x1="0" y1="28" x2="0" y2="0" stroke="#10b981" stroke-width="1.8" marker-end="url(#arrow-up)"/>
-    <rect x="-95" y="6" width="190" height="16" rx="3" fill="#0f172a" stroke="#334155" stroke-width="0.8"/>
-    <text x="0" y="18" font-size="9" font-weight="600" fill="#34d399" text-anchor="middle">Time-Series Queries &amp; KPIs</text>
+  <!-- Flow Connector: Layer 2 to Layer 3 (Clear 55px vertical spacing) -->
+  <g transform="translate(550, 445)">
+    <line x1="0" y1="48" x2="0" y2="7" stroke="#fbbf24" stroke-width="2" marker-end="url(#arrow-up-amber)"/>
+    <rect x="-105" y="15" width="210" height="22" rx="11" fill="#0f172a" stroke="#f59e0b" stroke-width="1"/>
+    <text x="0" y="30" font-size="10" font-weight="600" fill="#fef3c7" text-anchor="middle">Queries &amp; Time-Series Analytics ↑</text>
   </g>
 
   <!-- ==================== LAYER 2 ==================== -->
-  <g transform="translate(40, 440)">
-    <!-- Layer Container -->
+  <g transform="translate(40, 505)">
+    <!-- Container -->
     <rect x="0" y="0" width="1020" height="150" rx="10" fill="url(#layer2-grad)" stroke="#10b981" stroke-width="1.5"/>
-    <!-- Layer Badge -->
+    <!-- Badge -->
     <rect x="18" y="14" width="430" height="26" rx="5" fill="#065f46" stroke="#34d399" stroke-width="1"/>
     <text x="28" y="31" font-size="12" font-weight="700" fill="#ecfdf5" letter-spacing="0.5">LAYER 2: MEDIATION &amp; TIME-SERIES STORAGE (VIEWTILOG)</text>
     <text x="990" y="32" font-size="12" font-weight="600" fill="#6ee7b7" text-anchor="end">Processing &amp; Storage Plane</text>
 
     <!-- Sub-Cards -->
     <g transform="translate(18, 48)">
-      <!-- Dhyana Card -->
+      <!-- Dhyana -->
       <rect x="0" y="0" width="484" height="88" rx="6" fill="url(#card-inner)" stroke="#047857" stroke-width="1"/>
       <text x="14" y="22" font-size="14" font-weight="700" fill="#ecfdf5">Dhyana (ETL Execution Engine)</text>
       <text x="14" y="42" font-size="11" fill="#cbd5e1">• High-Throughput Pipelines: Connector (Pull) &amp; Streamer (Push) Models</text>
       <text x="14" y="58" font-size="11" fill="#cbd5e1">• In-Flight Decorators: Net (Subnets/ASN), CSV &amp; Inventory Decorator</text>
-      <text x="14" y="74" font-size="11" fill="#cbd5e1">• ViewtinetDB Producers: High-Speed Time-Series Ingestion &amp; Save-Modes</text>
+      <text x="14" y="74" font-size="11" fill="#cbd5e1">• ViewtinetDB Producers: Continuous Time-Series Ingestion &amp; Save-Modes</text>
 
-      <!-- Viewticore Card -->
+      <!-- Viewticore -->
       <rect x="500" y="0" width="484" height="88" rx="6" fill="url(#card-inner)" stroke="#047857" stroke-width="1"/>
       <text x="514" y="22" font-size="14" font-weight="700" fill="#ecfdf5">Viewticore (Database CRUD &amp; Core Brain)</text>
       <text x="514" y="42" font-size="11" fill="#cbd5e1">• Data Models, Schemas &amp; Table CRUD Operations Governance</text>
@@ -146,43 +149,44 @@
     </g>
   </g>
 
-  <!-- Flow Connector 1 to 2 -->
-  <g transform="translate(550, 590)">
-    <line x1="0" y1="28" x2="0" y2="0" stroke="#38bdf8" stroke-width="1.8" marker-end="url(#arrow-up)"/>
-    <rect x="-95" y="6" width="190" height="16" rx="3" fill="#0f172a" stroke="#334155" stroke-width="0.8"/>
-    <text x="0" y="18" font-size="9" font-weight="600" fill="#38bdf8" text-anchor="middle">Raw Flows, Packets &amp; Events</text>
+  <!-- Flow Connector: Layer 1 to Layer 2 (Clear 55px vertical spacing) -->
+  <g transform="translate(550, 655)">
+    <line x1="0" y1="48" x2="0" y2="7" stroke="#34d399" stroke-width="2" marker-end="url(#arrow-up-emerald)"/>
+    <rect x="-105" y="15" width="210" height="22" rx="11" fill="#0f172a" stroke="#10b981" stroke-width="1"/>
+    <text x="0" y="30" font-size="10" font-weight="600" fill="#a7f3d0" text-anchor="middle">Raw Flows, Packets &amp; Events ↑</text>
   </g>
 
   <!-- ==================== LAYER 1 ==================== -->
-  <g transform="translate(40, 620)">
-    <!-- Layer Container -->
+  <g transform="translate(40, 715)">
+    <!-- Container -->
     <rect x="0" y="0" width="1020" height="150" rx="10" fill="url(#layer1-grad)" stroke="#38bdf8" stroke-width="1.5"/>
-    <!-- Layer Badge -->
+    <!-- Badge -->
     <rect x="18" y="14" width="370" height="26" rx="5" fill="#075985" stroke="#7dd3fc" stroke-width="1"/>
     <text x="28" y="31" font-size="12" font-weight="700" fill="#f0f9ff" letter-spacing="0.5">LAYER 1: DATA COLLECTION &amp; INGESTION LAYER</text>
     <text x="990" y="32" font-size="12" font-weight="600" fill="#7dd3fc" text-anchor="end">Acquisition Plane</text>
 
-    <!-- Sub-Cards -->
+    <!-- Sub-Cards (Viewtimon given major prominence: 630px vs 346px) -->
     <g transform="translate(18, 48)">
-      <!-- Viewtimon Card -->
-      <rect x="0" y="0" width="484" height="88" rx="6" fill="url(#card-inner)" stroke="#0284c7" stroke-width="1"/>
-      <text x="14" y="22" font-size="14" font-weight="700" fill="#f0f9ff">Viewtimon (DPI &amp; Active Probes)</text>
-      <text x="14" y="42" font-size="11" fill="#cbd5e1">• Wire-Speed Deep Packet Inspection (DPI via DPDK / Hugepages)</text>
-      <text x="14" y="58" font-size="11" fill="#cbd5e1">• QoE, Network KPIs &amp; VoIP Analysis (MOS, Jitter, Loss, Retransmissions)</text>
-      <text x="14" y="74" font-size="11" fill="#cbd5e1">• Active Probe Tests (ICMP, DHCP, DNS, HTTP) &amp; Viewtify QoS Policies</text>
+      <!-- Viewtimon Core Probe Card (630px width - Primary Focus) -->
+      <rect x="0" y="0" width="624" height="88" rx="6" fill="url(#card-inner)" stroke="#0284c7" stroke-width="1.2"/>
+      <text x="14" y="22" font-size="14" font-weight="700" fill="#f0f9ff">Viewtimon (Wire-Speed DPI &amp; Active Probing Probe)</text>
+      <text x="14" y="42" font-size="11" fill="#cbd5e1">• Multi-Gigabit Deep Packet Inspection (DPI via DPDK &amp; Hugepages memory)</text>
+      <text x="14" y="56" font-size="11" fill="#cbd5e1">• L7 Protocol &amp; App Classification • Full-Mesh North-South &amp; East-West Flows</text>
+      <text x="14" y="70" font-size="11" fill="#cbd5e1">• QoE &amp; Latency KPIs • VoIP Analysis (MOS, Jitter, Packet Loss, Codecs)</text>
+      <text x="14" y="84" font-size="11" fill="#cbd5e1">• Viewtify QoS Policies • Active Probe Tests (ICMP, DHCP, DNS, HTTP)</text>
 
-      <!-- Ingestion & Bypasser Card -->
-      <rect x="500" y="0" width="484" height="88" rx="6" fill="url(#card-inner)" stroke="#0284c7" stroke-width="1"/>
-      <text x="514" y="22" font-size="14" font-weight="700" fill="#f0f9ff">Bypasser &amp; Telemetry Ingestion</text>
-      <text x="514" y="42" font-size="11" fill="#cbd5e1">• Bypasser: Watchdog Daemon &amp; Hardware Bypass Relay Fail-Over</text>
-      <text x="514" y="58" font-size="11" fill="#cbd5e1">• Flow Sniffing: NetFlow (v5/v9), IPFIX, sFlow &amp; jFlow Receivers</text>
-      <text x="514" y="74" font-size="11" fill="#cbd5e1">• Management Protocols: SNMP Polling/Traps, Syslog, WMI &amp; Web APIs</text>
+      <!-- Telemetry Ingestion & Bypasser (346px width - Balanced) -->
+      <rect x="638" y="0" width="346" height="88" rx="6" fill="url(#card-inner)" stroke="#0369a1" stroke-width="1"/>
+      <text x="652" y="22" font-size="14" font-weight="700" fill="#f0f9ff">Telemetry Ingestion &amp; Links</text>
+      <text x="652" y="42" font-size="11" fill="#cbd5e1">• Flow Sniffing: NetFlow, IPFIX, sFlow, jFlow</text>
+      <text x="652" y="58" font-size="11" fill="#cbd5e1">• Management: SNMP Polling/Traps, Syslog, APIs</text>
+      <text x="652" y="74" font-size="11" fill="#94a3b8">• Inline Bypasser: Hardware relay fail-over</text>
     </g>
   </g>
 
   <!-- ==================== FOOTER ==================== -->
-  <g transform="translate(40, 785)">
-    <rect x="0" y="0" width="1020" height="42" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-    <text x="24" y="26" font-size="11" font-weight="500" fill="#64748b">Viewtinet 7.X Architecture — Layer 1 (Acquisition) → Layer 2 (Mediation &amp; Storage in Viewtilog) → Layer 3 (Analytics &amp; Control in Viewtisight) → Layer 4 (Governance in Viewtimanager &amp; Viewtiauth)</text>
+  <g transform="translate(40, 885)">
+    <rect x="0" y="0" width="1020" height="36" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="510" y="23" font-size="11" font-weight="500" fill="#64748b" text-anchor="middle">Viewtinet 7.X Architecture — Layer 1 (Acquisition) → Layer 2 (Mediation &amp; Storage in Viewtilog) → Layer 3 (Analytics &amp; Control in Viewtisight) → Layer 4 (Governance in Viewtimanager &amp; Viewtiauth)</text>
   </g>
 </svg>
