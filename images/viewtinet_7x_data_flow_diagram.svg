@@ -54,27 +54,27 @@
     <rect x="0" y="0" width="760" height="96" rx="8" fill="url(#box-source)" stroke="#334155" stroke-width="1.2"/>
     <text x="16" y="20" font-size="11" font-weight="700" fill="#94a3b8" letter-spacing="0.5">SOURCE INFRASTRUCTURE (PHYSICAL, VIRTUAL &amp; CLOUD)</text>
 
-    <!-- Source Items properly translated -->
+    <!-- Source Items -->
     <g transform="translate(16, 30)">
       <!-- Item 1: Live Wire -->
       <g transform="translate(0, 0)">
         <rect x="0" y="0" width="232" height="52" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-        <text x="12" y="22" font-size="12" font-weight="700" fill="#f1f5f9">Live Wire Traffic</text>
-        <text x="12" y="38" font-size="10" fill="#94a3b8">SPAN / Optical TAP / Inline Spans</text>
+        <text x="14" y="22" font-size="12" font-weight="700" fill="#f1f5f9">Live Wire Traffic</text>
+        <text x="14" y="38" font-size="10" fill="#94a3b8">SPAN / Optical TAP / Inline Spans</text>
       </g>
 
       <!-- Item 2: Devices -->
-      <g transform="translate(246, 0)">
-        <rect x="0" y="0" width="240" height="52" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-        <text x="12" y="22" font-size="12" font-weight="700" fill="#f1f5f9">Routers, Switches &amp; Firewalls</text>
-        <text x="12" y="38" font-size="10" fill="#94a3b8">SNMP MIBs, Flow Telemetry, Syslog</text>
+      <g transform="translate(248, 0)">
+        <rect x="0" y="0" width="236" height="52" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+        <text x="14" y="22" font-size="12" font-weight="700" fill="#f1f5f9">Routers, Switches &amp; Firewalls</text>
+        <text x="14" y="38" font-size="10" fill="#94a3b8">SNMP MIBs, Flow Telemetry, Syslog</text>
       </g>
 
       <!-- Item 3: Servers -->
-      <g transform="translate(500, 0)">
-        <rect x="0" y="0" width="228" height="52" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-        <text x="12" y="22" font-size="12" font-weight="700" fill="#f1f5f9">Servers &amp; Cloud Apps</text>
-        <text x="12" y="38" font-size="10" fill="#94a3b8">WMI, Cloud APIs, Active Targets</text>
+      <g transform="translate(496, 0)">
+        <rect x="0" y="0" width="232" height="52" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+        <text x="14" y="22" font-size="12" font-weight="700" fill="#f1f5f9">Servers &amp; Cloud Apps</text>
+        <text x="14" y="38" font-size="10" fill="#94a3b8">WMI, Cloud APIs, Active Targets</text>
       </g>
     </g>
   </g>
@@ -106,14 +106,6 @@
 
       <text x="14" y="238" font-size="11" fill="#cbd5e1">• Appliance Upgrades</text>
       <text x="14" y="254" font-size="10" fill="#94a3b8">  Signature packs &amp; node management</text>
-
-      <!-- Sync Arrow from Inventory to Decorator -->
-      <path d="M 0 74 L -38 74 L -38 435 L -18 435" fill="none" stroke="#a78bfa" stroke-width="1.6" stroke-dasharray="4,3"/>
-      <polygon points="-18,435 -24,432 -24,438" fill="#a78bfa"/>
-      <rect x="-56" y="240" width="36" height="50" rx="3" fill="#0f172a" stroke="#6d28d9" stroke-width="0.8"/>
-      <text x="-38" y="258" font-size="8" font-weight="600" fill="#c4b5fd" text-anchor="middle">Sync</text>
-      <text x="-38" y="270" font-size="8" font-weight="600" fill="#c4b5fd" text-anchor="middle">Asset</text>
-      <text x="-38" y="282" font-size="8" font-weight="600" fill="#c4b5fd" text-anchor="middle">Data</text>
     </g>
 
     <!-- Viewtiauth -->
@@ -125,27 +117,20 @@
       <text x="14" y="70" font-size="11" fill="#cbd5e1">• Centralized AAA System</text>
       <text x="14" y="86" font-size="10" fill="#94a3b8">  Authentication, Authorization &amp; Audit</text>
 
-      <text x="14" y="112" font-size="11" fill="#cbd5e1">• Role-Based Access Control</text>
+      <text x="14" y="112" font-size="11" fill="#cbd5e1">• Role-Based Access Control (RBAC)</text>
       <text x="14" y="128" font-size="10" fill="#94a3b8">  Granular permissions per user &amp; tenant</text>
 
-      <text x="14" y="154" font-size="11" fill="#cbd5e1">• Active Directory &amp; LDAP</text>
-      <text x="14" y="170" font-size="10" fill="#94a3b8">  Native directory group-to-role mappings</text>
+      <text x="14" y="154" font-size="11" fill="#cbd5e1">• External Identity &amp; SSO</text>
+      <text x="14" y="170" font-size="10" fill="#94a3b8">  Active Directory, LDAP, SAML 2.0 &amp; Entra ID</text>
 
-      <text x="14" y="196" font-size="11" fill="#cbd5e1">• Multi-Factor Auth (MFA)</text>
-      <text x="14" y="212" font-size="10" fill="#94a3b8">  TOTP security &amp; session inactivity</text>
+      <text x="14" y="196" font-size="11" fill="#cbd5e1">• Multi-Factor Auth (MFA / 2FA)</text>
+      <text x="14" y="212" font-size="10" fill="#94a3b8">  TOTP security &amp; session timeout governance</text>
 
-      <text x="14" y="238" font-size="11" fill="#cbd5e1">• OAuth2 Client Credentials</text>
-      <text x="14" y="254" font-size="10" fill="#94a3b8">  Standard M2M automated integrations</text>
+      <text x="14" y="238" font-size="11" fill="#cbd5e1">• Managed API Keys</text>
+      <text x="14" y="254" font-size="10" fill="#94a3b8">  Token lifecycle &amp; secure programmatic access</text>
 
-      <text x="14" y="280" font-size="11" fill="#cbd5e1">• Managed API Keys</text>
-      <text x="14" y="296" font-size="10" fill="#94a3b8">  Token lifecycle &amp; secure programmatic access</text>
-
-      <!-- RBAC Enforcement Arrow to Viewtisight -->
-      <path d="M 0 114 L -48 114 L -48 290 L -18 290" fill="none" stroke="#a78bfa" stroke-width="1.6" stroke-dasharray="4,3"/>
-      <polygon points="-18,290 -24,287 -24,293" fill="#a78bfa"/>
-      <rect x="-66" y="180" width="36" height="40" rx="3" fill="#0f172a" stroke="#6d28d9" stroke-width="0.8"/>
-      <text x="-48" y="197" font-size="8" font-weight="600" fill="#c4b5fd" text-anchor="middle">Enforce</text>
-      <text x="-48" y="210" font-size="8" font-weight="600" fill="#c4b5fd" text-anchor="middle">RBAC</text>
+      <text x="14" y="280" font-size="11" fill="#cbd5e1">• Local Authentication</text>
+      <text x="14" y="296" font-size="10" fill="#94a3b8">  Bcrypt salted credentials &amp; RSA encryption</text>
     </g>
   </g>
 
@@ -164,7 +149,7 @@
     <rect x="16" y="12" width="330" height="24" rx="4" fill="#075985" stroke="#7dd3fc" stroke-width="1"/>
     <text x="24" y="28" font-size="11" font-weight="700" fill="#f0f9ff" letter-spacing="0.5">LAYER 1: DATA COLLECTION &amp; INGESTION LAYER</text>
 
-    <!-- Sub-Cards properly translated in groups -->
+    <!-- Sub-Cards -->
     <g transform="translate(16, 44)">
       <!-- Viewtimon Core Probe Card (460px width) -->
       <g transform="translate(0, 0)">
@@ -176,14 +161,14 @@
         <text x="14" y="83" font-size="10.5" fill="#cbd5e1">• Viewtify QoS Policies • Active Synthetic Probes (ICMP, DHCP, DNS, HTTP)</text>
       </g>
 
-      <!-- Telemetry Ingestion & Bypasser (256px width) translated at x=472 -->
+      <!-- Telemetry Ingestion & Bypasser (256px width) -->
       <g transform="translate(472, 0)">
         <rect x="0" y="0" width="256" height="98" rx="6" fill="url(#card-grad)" stroke="#0369a1" stroke-width="1"/>
-        <text x="12" y="20" font-size="13" font-weight="700" fill="#f0f9ff">Telemetry Ingestion &amp; Fail-Over</text>
-        <text x="12" y="38" font-size="10.5" fill="#cbd5e1">• Flow Sniffing: NetFlow, IPFIX, sFlow</text>
-        <text x="12" y="53" font-size="10.5" fill="#cbd5e1">• SNMPv1/v2c/v3 Polling &amp; Traps</text>
-        <text x="12" y="68" font-size="10.5" fill="#cbd5e1">• High-Throughput Syslog Server</text>
-        <text x="12" y="83" font-size="10" fill="#94a3b8">• Bypasser: Hardware relay fail-open</text>
+        <text x="14" y="20" font-size="13" font-weight="700" fill="#f0f9ff">Telemetry Ingestion &amp; Fail-Over</text>
+        <text x="14" y="38" font-size="10.5" fill="#cbd5e1">• Flow Sniffing: NetFlow, IPFIX, sFlow</text>
+        <text x="14" y="53" font-size="10.5" fill="#cbd5e1">• SNMPv1/v2c/v3 Polling &amp; Traps</text>
+        <text x="14" y="68" font-size="10.5" fill="#cbd5e1">• High-Throughput Syslog Server</text>
+        <text x="14" y="83" font-size="10" fill="#94a3b8">• Bypasser: Hardware relay fail-open</text>
       </g>
     </g>
   </g>
@@ -201,64 +186,64 @@
     <text x="530" y="406" font-size="9" font-weight="600" fill="#6ee7b7" text-anchor="middle">Flows &amp; Events ↓</text>
   </g>
 
-  <!-- ==================== 3. LAYER 2: MEDIATION (VIEWTILOG) ==================== -->
+  <!-- ==================== 3. LAYER 2: MEDIATION & ETL PIPELINES (VIEWTILOG) ==================== -->
   <g transform="translate(40, 422)">
     <rect x="0" y="0" width="760" height="188" rx="10" fill="url(#box-l2)" stroke="#10b981" stroke-width="1.5"/>
     <!-- Badge -->
     <rect x="16" y="12" width="410" height="24" rx="4" fill="#065f46" stroke="#34d399" stroke-width="1"/>
     <text x="24" y="28" font-size="11" font-weight="700" fill="#ecfdf5" letter-spacing="0.5">LAYER 2: MEDIATION &amp; TIME-SERIES STORAGE (VIEWTILOG)</text>
 
-    <!-- Pipeline Internal Flow -->
+    <!-- 3-STAGE ETL PIPELINE EXECUTED BY DHYANA -->
     <g transform="translate(16, 44)">
-      <!-- Dhyana Engine Box (x=0) -->
+      <!-- Stage 1: Extraction -->
       <g transform="translate(0, 0)">
         <rect x="0" y="0" width="220" height="130" rx="6" fill="url(#card-grad)" stroke="#047857" stroke-width="1.2"/>
-        <text x="12" y="20" font-size="13" font-weight="700" fill="#ecfdf5">Dhyana Engine</text>
-        <text x="12" y="34" font-size="10" font-weight="600" fill="#34d399">Pipeline ETL Execution</text>
-        <text x="12" y="54" font-size="10" fill="#cbd5e1">• Connectors (Pull intervals)</text>
-        <text x="12" y="68" font-size="10" fill="#cbd5e1">• Streamers (Push / Real-time)</text>
-        <text x="12" y="82" font-size="10" fill="#cbd5e1">• CPU-Pinned Pipeline Workers</text>
-        <text x="12" y="96" font-size="10" fill="#cbd5e1">• Multi-Stage Grid Handler Chains</text>
-        <text x="12" y="112" font-size="10" fill="#94a3b8">  (Regex, Math, Date, Split, Filter)</text>
+        <text x="14" y="20" font-size="13" font-weight="700" fill="#ecfdf5">1. Extraction (Dhyana)</text>
+        <text x="14" y="34" font-size="10" font-weight="600" fill="#34d399">Connectors &amp; Streamers</text>
+        <text x="14" y="54" font-size="10" fill="#cbd5e1">• Scheduled Connectors (Pull)</text>
+        <text x="14" y="68" font-size="10" fill="#cbd5e1">• Real-Time Streamers (Push)</text>
+        <text x="14" y="82" font-size="10" fill="#cbd5e1">• CPU-Pinned Pipeline Workers</text>
+        <text x="14" y="96" font-size="10" fill="#cbd5e1">• Ingests NetFlow, Syslog, SNMP</text>
+        <text x="14" y="112" font-size="9.5" fill="#94a3b8">  Passes raw records to transform</text>
       </g>
 
-      <!-- Arrow: Dhyana to Decorators -->
+      <!-- Arrow 1 to 2 -->
       <line x1="220" y1="65" x2="245" y2="65" stroke="#34d399" stroke-width="1.8"/>
       <polygon points="245,65 239,62 239,68" fill="#34d399"/>
 
-      <!-- In-Flight Decorators Box (x=250) -->
+      <!-- Stage 2: Transformation -->
       <g transform="translate(250, 0)">
         <rect x="0" y="0" width="224" height="130" rx="6" fill="url(#card-grad)" stroke="#047857" stroke-width="1.2"/>
-        <text x="12" y="20" font-size="13" font-weight="700" fill="#ecfdf5">In-Flight Decorators</text>
-        <text x="12" y="34" font-size="10" font-weight="600" fill="#34d399">Real-Time Data Enrichment</text>
-        <text x="12" y="54" font-size="10" fill="#cbd5e1">• Net Decorator (IPv4 / IPv6)</text>
-        <text x="12" y="68" font-size="10" fill="#94a3b8">  Subnet mapping, ASN &amp; Country</text>
-        <text x="12" y="84" font-size="10" fill="#cbd5e1">• CSV / Table Decorator</text>
-        <text x="12" y="98" font-size="10" fill="#94a3b8">  Business context lookup tables</text>
-        <text x="12" y="114" font-size="10" fill="#38bdf8">• Inventory Decorator (7.X)</text>
-        <text x="12" y="126" font-size="9" fill="#94a3b8">  Auto-enrich from Viewtimanager</text>
+        <text x="14" y="20" font-size="13" font-weight="700" fill="#ecfdf5">2. Transform (Dhyana)</text>
+        <text x="14" y="34" font-size="10" font-weight="600" fill="#34d399">Grid Handlers &amp; Decorators</text>
+        <text x="14" y="54" font-size="10" fill="#cbd5e1">• Net Decorator (IPv4 / IPv6)</text>
+        <text x="14" y="68" font-size="9.5" fill="#94a3b8">  Subnet mapping, ASN &amp; Country</text>
+        <text x="14" y="84" font-size="10" fill="#cbd5e1">• CSV / Table Decorator</text>
+        <text x="14" y="98" font-size="9.5" fill="#94a3b8">  Dynamic business context lookups</text>
+        <text x="14" y="114" font-size="10" fill="#38bdf8">• Inventory Decorator (7.X)</text>
+        <text x="14" y="126" font-size="9" fill="#94a3b8">  Enriches with Viewtimanager data</text>
       </g>
 
-      <!-- Arrow: Decorators to ViewtinetDB -->
+      <!-- Arrow 2 to 3 -->
       <line x1="474" y1="65" x2="499" y2="65" stroke="#34d399" stroke-width="1.8"/>
       <polygon points="499,65 493,62 493,68" fill="#34d399"/>
 
-      <!-- ViewtinetDB & Viewticore Combined Storage Block (x=504) -->
+      <!-- Stage 3: Loading & Database Governance -->
       <g transform="translate(504, 0)">
-        <!-- ViewtinetDB Sub-card -->
+        <!-- ViewtinetDB Loading -->
         <g transform="translate(0, 0)">
           <rect x="0" y="0" width="224" height="60" rx="6" fill="url(#card-grad)" stroke="#047857" stroke-width="1.2"/>
-          <text x="12" y="18" font-size="12" font-weight="700" fill="#ecfdf5">ViewtinetDB Storage</text>
-          <text x="12" y="32" font-size="9.5" fill="#34d399">Continuous Time-Series Ingestion</text>
-          <text x="12" y="48" font-size="9" fill="#cbd5e1">Columnar Store • Granular Save-Modes</text>
+          <text x="14" y="18" font-size="12" font-weight="700" fill="#ecfdf5">3. Loading (Producers)</text>
+          <text x="14" y="32" font-size="9.5" fill="#34d399">ViewtinetDB Storage</text>
+          <text x="14" y="48" font-size="9" fill="#cbd5e1">High-Speed Columnar Persistence</text>
         </g>
 
-        <!-- Viewticore Brain Sub-card -->
+        <!-- Viewticore Brain -->
         <g transform="translate(0, 68)">
           <rect x="0" y="0" width="224" height="62" rx="6" fill="url(#card-grad)" stroke="#047857" stroke-width="1.2"/>
-          <text x="12" y="18" font-size="12" font-weight="700" fill="#ecfdf5">Viewticore (Core Brain)</text>
-          <text x="12" y="32" font-size="9.5" fill="#34d399">Database CRUD &amp; Schemas</text>
-          <text x="12" y="48" font-size="9" fill="#cbd5e1">Data Models, Registry, Migrations</text>
+          <text x="14" y="18" font-size="12" font-weight="700" fill="#ecfdf5">Viewticore (Core Brain)</text>
+          <text x="14" y="32" font-size="9.5" fill="#34d399">Database CRUD &amp; Schemas</text>
+          <text x="14" y="48" font-size="9" fill="#cbd5e1">Data Models, Registry &amp; Migrations</text>
         </g>
       </g>
     </g>
@@ -279,21 +264,21 @@
     <rect x="16" y="12" width="410" height="24" rx="4" fill="#78350f" stroke="#fbbf24" stroke-width="1"/>
     <text x="24" y="28" font-size="11" font-weight="700" fill="#fef3c7" letter-spacing="0.5">LAYER 3: VISUALIZATION, ANALYTICS &amp; CONTROL CENTER</text>
 
-    <!-- Sub-Cards properly translated -->
+    <!-- Sub-Cards -->
     <g transform="translate(16, 44)">
-      <!-- Viewtisight Analytics Card (x=0) -->
+      <!-- Viewtisight Analytics Card (354px) -->
       <g transform="translate(0, 0)">
         <rect x="0" y="0" width="354" height="128" rx="6" fill="url(#card-grad)" stroke="#b45309" stroke-width="1.2"/>
         <text x="14" y="20" font-size="13" font-weight="700" fill="#fffbeb">Viewtisight Operations Console</text>
         <text x="14" y="38" font-size="10.5" fill="#cbd5e1">• Multi-Layer Dashboards (Card Stacking &amp; Layer Events)</text>
-        <text x="14" y="53" font-size="10.5" fill="#cbd5e1">• Preconfigured Domain Cockpits (Exec, Net, VoIP, Sec, Sys)</text>
+        <text x="14" y="53" font-size="10.5" fill="#cbd5e1">• Preconfigured &amp; Customized Operation Dashboards</text>
         <text x="14" y="68" font-size="10.5" fill="#cbd5e1">• Card Subscription Reusability (1-Click Query Copying)</text>
         <text x="14" y="83" font-size="10.5" fill="#cbd5e1">• Free Exploration Mode (Mole / XDR Multidimensional Drill-down)</text>
         <text x="14" y="98" font-size="10.5" fill="#cbd5e1">• Dynamic Topology Maps &amp; Automated PDF Reporter</text>
         <text x="14" y="113" font-size="10" fill="#38bdf8">• ViewtiAI Copilot: Contextual Metric &amp; KPI Composer</text>
       </g>
 
-      <!-- Control Center Card (x=368) -->
+      <!-- Control Center Card (360px) -->
       <g transform="translate(368, 0)">
         <rect x="0" y="0" width="360" height="128" rx="6" fill="url(#card-grad)" stroke="#b45309" stroke-width="1.2"/>
         <text x="14" y="20" font-size="13" font-weight="700" fill="#fffbeb">Control Center (Alarms &amp; Notifications)</text>
